@@ -36,3 +36,1035 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+
+}
+
+
+.header1 {
+  height: 100vh;
+  width: 35%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  /* Centering the image horizontally */
+  display: flex;
+  justify-content: center;
+}
+
+.header1 img {
+ width:  auto; /* Let the width scale proportionally */
+ margin-left: 0px;
+ margin-right: 0px; 
+ height: 100%; /* Take up the entire height of the container */
+}
+
+/***************header 2*********************/
+.header2{
+  height:100vh;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+ 
+  
+}
+.fa-solid
+{
+color: red;
+}
+/* Form Styles */
+.form-container {
+  max-width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+ 
+}
+
+.heading {
+  text-align: start;
+  margin-bottom: 20px;
+
+}
+
+.text {
+  text-align: start;
+}
+
+.heading li {
+  color: red;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form{
+margin-left: 25%;
+padding-right: 15%;
+}
+ .first{
+display: flex;
+
+}
+.label {
+  margin-bottom: 5px;
+}
+
+.Input,
+.InputPass {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: rgb(243, 229, 234);
+}
+
+#username::placeholder {
+  color: red;
+}
+.member a{
+  text-decoration: none;
+ color: rgb(72, 162, 218);
+}
+.form-container .member {
+  text-align: end;
+}
+.InputLable{
+  display: flex;
+margin-top: -0.5rem;
+}
+.Input .input1
+{
+  margin-left: 1rem;
+}
+/* Account and AccountCreate Page Styles */
+.account {
+  margin: 7rem auto 4.8rem auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.account h5 {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.account h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.profile {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.chooseImg {
+  margin: 2rem 0 0 3rem;
+}
+
+.chooseImg button {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ProfileImg,
+.ProfileImgWomen {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 4px dotted #ccc;
+  overflow: hidden;
+}
+
+.option {
+  margin-top: 1rem;
+  border: none;
+}
+
+.option select {
+  border: none;
+  font-size: medium;
+  color: #888484;
+}
+
+.Next,
+.Press {
+  background-color: rgb(229, 174, 192);
+  width: 100%;
+  max-width: 15rem;
+  height: 1.7rem;
+  border-radius: 5px;
+  margin-top: 3rem;
+  color: white;
+  align-self: center;
+  border: none;
+}
+
+.submit p {
+  margin: 0.7rem 0 0 4rem;
+  font-size: medium;
+  color: #888484;
+}
+
+.women {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+      /* Dibbble.jsx*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.ContainerClass {
+  max-width: 800px;
+   margin: 0 auto; 
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.ContainerClass1 {
+  max-width: 800px;
+ height: 100vh;
+   margin: 0 auto; 
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.main{
+  max-width:100%;
+  height: 100vh; 
+  padding: 0px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.main1{
+  max-width:100%;
+  /* height:100vh; */
+  padding: 0px;
+  margin-top: 2rem;
+}
+.Icons{
+ display: flex;
+ margin-left: 1rem;
+ margin-top: 0px;
+}
+.Icon2{
+  margin-left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  background-color:#f3efef;
+  border-radius: 5px;
+}
+.Icon2 .fal{
+  font-weight: 500;
+}
+hr{
+  margin-top: 0px;
+}
+.Heading {
+  text-align: center;
+  
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+.Heading p  {
+margin-top: 0.5rem;
+color: #aaa7a7;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+.Heading h3{
+  font-weight: 600;
+}
+.flexImg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 6rem;
+}
+
+.flexdiv {
+  flex: 0 1 calc(33.33% - 20px); /* Flex basis is 33.33% of the container width minus 20px */
+  margin-bottom: 20px; /* Margin at the bottom */
+  text-align: center; /* Center-align the content */
+  border: 2px solid rgb(230, 228, 228); /* Black border with 2px width */
+  height: 70%; /* Set fixed height */
+  width: 70%; /* Set fixed width */
+ border-radius: 12px;
+ margin-right: 17px; /* Increase the margin between flex items */
+}
+.hide {
+  display: none;
+}
+.flexdiv:hover
+{
+  border: 2px solid rgb(210, 16, 152);
+}
+.flexdiv:hover .flexImg1
+{
+  margin: -95px 17px 0px 17px;
+  text-align: center; /* Center-align the content */
+  height: 70%; /* Set fixed height */
+  width: 100%; /* Set fixed width */
+ border-radius: 12px;
+ margin-right: 17px; 
+}
+.flexdiv:hover .hide{
+  margin-bottom: 20px; /* Margin at the bottom */
+  text-align: center; /* Center-align the content */
+ height: 70%;/* Set fixed height */
+  width: 70%; /* Set fixed width */
+ border-radius: 12px;
+ margin-right: 17px; 
+ display: inline;
+
+}
+
+.flexdiv img{
+  margin: 17px 17px 17px 17px;
+}
+
+/* To prevent margin-right being applied to the last flex item */
+.flexImg1 {
+  width: 70%;
+  height: 70%;
+  margin: 1rem; 
+ 
+}
+
+h6 {
+margin-top: 3rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
+margin-right: 0.7rem;
+font-weight: 700;
+}
+
+.btnClass {
+
+  
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem; /* Ensure no conflicting CSS overrides this */
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 134, 165);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+  
+  
+  
+}
+/**************** footer **************************/
+.footemain{
+  text-align: center;
+ margin-top: 10rem;
+}
+.footeLink{
+display: flex;
+justify-content: space-evenly;
+margin-top: 5rem;
+}
+f1 p{
+ 
+margin-bottom: 0px;
+}
+.footure
+{
+  margin-top: 5rem;
+}
+.btn-outline-submit{
+  background-color: palevioletred;
+  margin-left: 1rem;
+}
+.footerImg
+.Import{
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.footer_icon{
+  display: flex;
+  justify-content: space-evenly;
+  }
+.fa-envelope-open{
+  margin-top: 0.5rem;
+}
+ .fa-envelope {
+  margin-top:0.3rem;
+  font-size: 10rem;
+}
+ .text-secondary a{
+  text-decoration: none;
+ }
+.fa-check-circle {
+  position: absolute;
+  bottom: -543%;
+  left: 58.2%;
+  font-size: 2rem;
+
+  /* Position to the right of the first icon */
+  margin-left: 5px; /* Add some spacing between the icons */
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) and (min-width:370px)
+{
+  .main{
+    margin-top: -10rem;
+    height: 0px;
+  }
+  .first{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .flexdiv {
+    flex: 0 1 calc(50% - 20px);
+  }
+  .btnClass {
+
+  
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem; /* Ensure no conflicting CSS overrides this */
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 134, 165);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+  
+  
+  
+}
+.ContainerClass1 {
+  max-width: 800px;
+ height: 100vh;
+   margin: 0 auto; 
+   margin-top: 10rem;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.main{
+  margin-top: 0px;
+  height: 0px;
+}
+.footmain{
+display: flex;
+flex-wrap: wrap;
+}
+.footeLink {
+  /* Adjust styles for smaller screens */
+  display: flex; /* Use flexbox layout for better responsiveness */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Evenly distribute items along the main axis */
+}
+.footer{
+  margin-top: 23rem;
+}
+.footeLink .f1{
+  margin-top: 7px
+}
+.footuC{
+margin-top: 30px;
+}
+}
+.ImportDibbble{
+height: 1.7rem;
+width: 6rem;
+}
+.ImportDibbble2{
+  height: 1.7rem;
+  width: 7rem;
+  }
+  .ImportDibbble3{
+width: 6rem;
+  }
+
+/********* Dibble 2********/
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .main{
+    height: 100%
+  }
+  .flexdiv1 {
+    flex: 0 1 calc(100% - 20px);
+  }
+.flexImg1{
+ margin-top: 0px;
+}
+.ContainerClass1{
+  height: 100vh;
+ 
+
+}
+  .butnClass1{
+     margin-top: -4rem;
+  }
+  .first{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .main{
+    height: 150vh;
+  }
+  .main1{
+    margin-bottom: 20rem;
+  }
+  
+  .flexdiv {
+    flex: 0 1 calc(100% - 20px);
+  }
+.flexImg{
+ margin-top: 0px;
+}
+.ContainerClass{
+  height: 100vh;
+
+
+}
+  .butnClass{
+     margin-top: -4rem;
+  }
+  .first{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+/**************************************************************************/
+/*************************** Responsive styles ********************************/
+
+@media (min-width: 768px) {
+  .form-group {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+.main1{
+
+}
+  .label1 {
+    width: auto; /* Adjust width as needed */
+    margin-right: 20px; /* Adjust spacing between label and input */
+  }
+
+  .Input,
+  .InputPass {
+    width: 100%;
+    border-radius:6px;
+    margin-top: 0; /* Reset margin-top for inputs */
+  }
+  
+}
+
+@media only screen and (max-width: 1290px) and (min-width:1000px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+  .header1 {
+    width: 100%;
+    
+  }
+
+  .header2 {
+    width: 100%;
+  }
+
+  .header1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-container {
+    max-width: 90%;
+  
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .InputPass,
+  .Location {
+    width: 100%;
+    padding: 5px;
+  }
+  .account {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+   margin-left: 30%;
+  }
+
+  .profile {
+    flex-direction: row;
+   
+  }
+
+  .chooseImg {
+    margin-left: 3rem ;
+  }
+
+  .ProfileImg,
+  .ProfileImgWomen {
+    position: relative;
+  width: 10rem; /* Adjust size as needed */
+  height: 10rem; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; 
+
+  }
+
+  .Next,
+  .Press {
+    width: 20%;
+    margin-top: 2rem;
+  }
+  .Location{
+    width: 30%;
+  }
+  .submit p {
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  form{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .footer{
+    margin-top: 4rem;
+  }
+  .first{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .input1{
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header2 {
+    width: 100%;
+
+  }
+
+  .header1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-container {
+    max-width: 90%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .InputPass,
+  .Location {
+    width: 100%;
+  }
+
+  .account {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+  }
+
+  .profile {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chooseImg {
+    margin-left: 3rem ;
+  }
+
+  .ProfileImg,
+  .ProfileImgWomen {
+    position: relative;
+  width: 10rem; /* Adjust size as needed */
+  height: 10rem; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; 
+  margin-left: 0px;
+  }
+
+  .Next,
+  .Press {
+    width: 20%;
+    margin-top: 2rem;
+  }
+  .Location{
+    width: 30%;
+  }
+  .submit p {
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  form{
+    margin-right: 0px;
+    margin-left: 0px;
+
+  }
+}
+
+@media only screen and (max-width: 900) and (min-width:770px) 
+  {
+   .account{
+    margin-left:10%;
+   }
+   .Input{
+    padding: 1px;
+   }
+   .main1{
+    margin-bottom: 10rem;
+   }
+  }
+
+@media only screen and (max-width: 770px) and (min-width:450px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header1 {
+    width: 100%;
+    
+  }
+
+  .header2 {
+    width: 100%;
+    margin-bottom: 5rem;
+    height: 100%;
+  }
+
+  .header1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-container {
+    max-width: 90%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .InputPass,
+  .Location {
+    width: 100%;
+  }
+
+  .account {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 10%;
+
+  }
+
+  .profile {
+    flex-direction: row;
+    
+  }
+
+  .chooseImg {
+    margin-left: 3rem ;
+  }
+
+  .ProfileImg,
+  .ProfileImgWomen {
+    position: relative;
+  width: 10rem; /* Adjust size as needed */
+  height: 10rem; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; 
+  margin-left: 0px;
+  }
+
+  .Next,
+  .Press {
+    width: 20%;
+    margin-top: 2rem;
+  }
+  .Location{
+    width: 30;
+  }
+  .submit p {
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  form{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 495px) and (min-width:337px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header1 {
+    width: 100%;
+    
+  }
+
+  .header2 {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .header1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-container {
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .InputPass,
+  .Location {
+    width: 100%;
+  }
+
+  .account {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+
+  }
+
+  .profile {
+    flex-direction: column;
+    
+  }
+
+  .chooseImg {
+    margin-left: 3rem ;
+  }
+
+  .ProfileImg,
+  .ProfileImgWomen {
+    position: relative;
+  width: 10rem; /* Adjust size as needed */
+  height: 10rem; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; 
+ margin-left: 3rem;
+  }
+
+  .Next,
+  .Press {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .Location{
+    width: 80%;
+  }
+  .submit p {
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  form{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .main{
+   margin-top: 35rem;
+  }
+
+}
+@media only screen and (max-width: 337px) and (min-width:200px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header1 {
+    width: 100%;
+    
+  }
+
+  .header2 {
+    width: 100%;
+    margin-bottom: 19rem;
+  }
+
+  .header1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-container {
+    max-width: 90%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .InputPass,
+  .Location {
+    width: 100%;
+  }
+
+  .account {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chooseImg {
+    margin: 1rem 0;
+  }
+
+  .ProfileImg,
+  .ProfileImgWomen {
+    position: relative;
+  width: 10rem; /* Adjust size as needed */
+  height: 10rem; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; 
+  margin-left: 0px;
+  }
+
+  .Next,
+  .Press {
+    width: 20%;
+    margin-top: 2rem;
+  }
+  .Location{
+    width: 50%;
+  }
+  .submit p {
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  form{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .butnClass{
+    margin-top: -4rem;
+ }
+ .main{
+  height: 10rem;
+}
+.footer{
+  margin-top: 50rem;
+  height: 100vh;
+}
+.fa-check-circle {
+  position: absolute;
+  bottom: -843%;
+  left: 58.2%;
+  font-size: 2rem;
+
+  /* Position to the right of the first icon */
+  margin-left: 5px; /* Add some spacing between the icons */
+}
+}

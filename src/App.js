@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './Component/Navbar';
+import About from './Component/footer';
+import Account from './Component/Account';
+import AccountCreate from './Component/AccountCreate';
+import Dibbble from './Component/Dibbble';
+import Dibble1 from './Component/Dibble1';
+import '@fortawesome/fontawesome-free/css/all.css';
+import { BrowserRouter, createBrowserRouter,Routes,Route, Link, RouterProvider} from "react-router-dom";
+
+let name = "nikeeta";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   < >
+
+   <BrowserRouter>
+   <Navbar title="nikeeta"/>
+   <Account/>
+   <AccountCreate/>
+   <Dibbble/>
+   <Dibble1/>
+   </BrowserRouter>
+   <About/>
+   </>
+
   );
 }
 
