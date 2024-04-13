@@ -434,7 +434,10 @@ margin-bottom: 0px;
   /* Position to the right of the first icon */
   margin-left: 5px; /* Add some spacing between the icons */
 }
-
+.container{
+  display: flex;
+  justify-content: space-around;
+  }
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) and (min-width:370px)

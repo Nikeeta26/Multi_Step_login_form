@@ -130,8 +130,9 @@ export default function footer(props) {
       </div>
     </div>
     <footer class="container">
-   <p class="float-right"><a href="#">Back to top</a></p>
+  
    <p>2020-2021 icoder, Inc. <a href="#">Privacy</a>.<a href="#">Terns</a></p>
+   <p class="float-right"><a href="#">Back to top</a></p>
 </footer>
 </footer>
     </>  
